@@ -49,3 +49,6 @@ function ans(){
 function reset(){
     document.getElementById("ansArea").value = "";
 }
+function backSpace(){
+    document.getElementById("ansArea").value = document.getElementById("ansArea").value.substring(0, document.getElementById("ansArea").value.length-1);
+}
